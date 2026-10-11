@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffe5ef">
+  <title>Happy Birthday, Sayang! 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+  <div id="hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">♡ for my love</a>
+    <button id="musicBtn" class="music-btn" type="button" aria-label="Putar atau hentikan musik">
+      <span id="musicIcon">♫</span> <span id="musicLabel">Putar musik</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="eyebrow"><span class="tiny-heart">♥</span> hari spesial seseorang yang spesial</div>
+      <div class="cake" aria-hidden="true">🎂</div>
+      <p class="small-title">a little birthday surprise for</p>
+      <h1>Happy Birthday,<br><span>Sayang!</span></h1>
+      <p class="hero-copy">Hari ini dunia merayakan seseorang yang begitu berarti. Dan aku punya sedikit kejutan khusus buat kamu. 💗</p>
+      <button class="primary-btn" id="startBtn" type="button">Mulai kejutan <span>♡</span></button>
+      <p class="hint">psst... nyalakan musiknya biar makin manis ♪</p>
+      <div class="scroll-note">scroll pelan-pelan ya <span>↓</span></div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="section-label">01 — a letter for you</div>
+      <h2>Ada surat kecil<br>buat <span>kamu</span> 💌</h2>
+      <p class="section-copy">Ada beberapa hal yang pengin aku sampaikan di hari spesialmu ini.</p>
+      <div class="envelope-wrap">
+        <div class="envelope" aria-hidden="true">
+          <div class="envelope-back"></div>
+          <div class="letter-paper"><span>with love,</span><b>aku ♡</b></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-heart">♥</div>
+        </div>
+      </div>
+      <button class="primary-btn" id="openLetterBtn" type="button">Buka pesan 💌</button>
+      <article class="message-card hidden" id="loveLetter">
+        <div class="card-sparkle">✦ ✧ ✦</div>
+        <p class="letter-greeting">buat sayangku yang paling manis,</p>
+        <p>happy birthday, sayanggg! 🤍 hari ini adalah hari lahir seseorang yang kehadirannya bikin hidup aku jadi lebih berwarna. semoga di umur yang baru ini, aii selalu dikelilingi hal-hal baik, diberi kesehatan, dimudahkan semua urusannya, dan pelan-pelan bisa meraih semua yang aii impikan.</p>
+        <p>terima kasih sudah hadir dan menjadi bagian indah dalam hidup aku. aku mungkin nggak selalu bisa menyampaikan semuanya dengan sempurna, tapi aku harap aii selalu tahu kalau aii itu berharga dan pantas mendapatkan banyak kebahagiaan.</p>
+        <p>kalau suatu hari terasa berat, semoga aii tetap punya alasan untuk tersenyum dan selalu ingat bahwa aii nggak harus menghadapi semuanya sendirian. aku akan terus belajar menjadi seseorang yang lebih baik, yang bisa mendengarkan, memahami, dan menyayangi aii dengan lebih baik juga.</p>
+        <p>semoga semua doa baik aii menemukan jalannya. jangan lupa bahagia, jangan terlalu keras sama diri sendiri, dan tetap jadi aii yang aku sayang. sekali lagi, selamat ulang tahun, cintaku. semoga hari ini jadi awal dari banyak cerita indah lainnya. 💗</p>
+        <p class="letter-sign">with all my love,<br><strong>aku ♡</strong></p>
+      </article>
+    </section>
+
+
+    <section class="section album-section" id="album">
+      <div class="section-label">02 — our little memories</div>
+      <h2>Potongan kecil<br>dari <span>cerita kita</span> 📸</h2>
+      <p class="section-copy">beberapa momen sederhana yang jadi istimewa karena ada aii di dalamnya.</p>
+      <div class="album-grid">
+        <button class="photo-card" type="button" data-photo="1.jpeg" data-caption="salah satu hari favorit aku ♡">
+          <img src="1.jpeg" alt="Kenangan pertama" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder"><span>♡</span><b>foto kenangan 1</b><small>ganti dengan foto kalian</small></span>
+          <span class="photo-caption">little moments, big feelings ♡</span>
+        </button>
+        <button class="photo-card" type="button" data-photo="2.jpeg" data-caption="senyum yang selalu aku suka 🌷">
+          <img src="2.jpeg" alt="Kenangan kedua" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder"><span>♡</span><b>foto kenangan 2</b><small>ganti dengan foto kalian</small></span>
+          <span class="photo-caption">your smile, my favorite view</span>
+        </button>
+        <button class="photo-card" type="button" data-photo="3.jpeg" data-caption="semoga ada lebih banyak cerita seperti ini ✨">
+          <img src="3.jpeg" alt="Kenangan ketiga" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder"><span>♡</span><b>foto kenangan 3</b><small>ganti dengan foto kalian</small></span>
+          <span class="photo-caption">a memory to keep forever</span>
+        </button>
+        <button class="photo-card" type="button" data-photo="4.jpeg" data-caption="terima kasih sudah jadi bagian cerita aku 💗">
+          <img src="4.jpeg" alt="Kenangan keempat" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder"><span>♡</span><b>foto kenangan 4</b><small>ganti dengan foto kalian</small></span>
+          <span class="photo-caption">just us, just happy</span>
+        </button>
+      </div>
+      <p class="album-note">tekan fotonya untuk melihat lebih dekat ♡</p>
+    </section>
+
+    <section class="section wishes-section" id="wishes">
+      <div class="section-label">03 — little wishes</div>
+      <h2>Doa-doa kecil<br>untuk <span>hari istimewa</span></h2>
+      <p class="section-copy">tekan satu per satu ya, semuanya khusus buat aii.</p>
+      <div class="wish-grid">
+        <button class="wish-card" data-wish="Semoga aii selalu sehat, hatinya tenang, dan hari-harinya dipenuhi kebahagiaan. 🌷">
+          <span class="wish-icon">🌷</span><strong>Untuk hatimu</strong><small>sebuah doa lembut</small><span class="wish-open">tekan untuk buka ↗</span>
+        </button>
+        <button class="wish-card" data-wish="Semoga semua impian aii, yang besar maupun yang kecil, menemukan jalan untuk menjadi nyata. ✨">
+          <span class="wish-icon">✨</span><strong>Untuk mimpimu</strong><small>semoga jadi nyata</small><span class="wish-open">tekan untuk buka ↗</span>
+        </button>
+        <button class="wish-card" data-wish="Semoga aii selalu dikelilingi orang-orang tulus, rezeki yang baik, dan kesempatan yang membawa berkah. 🦋">
+          <span class="wish-icon">🦋</span><strong>Untuk langkahmu</strong><small>semoga penuh berkah</small><span class="wish-open">tekan untuk buka ↗</span>
+        </button>
+        <button class="wish-card" data-wish="Dan semoga kita terus belajar saling memahami, bertumbuh, dan membuat lebih banyak kenangan manis bersama. 💗">
+          <span class="wish-icon">💗</span><strong>Untuk kita</strong><small>lebih banyak cerita</small><span class="wish-open">tekan untuk buka ↗</span>
+        </button>
+      </div>
+      <div class="wish-result hidden" id="wishResult" role="status"></div>
+    </section>
+
+    <section class="finale" id="finale">
+      <div class="finale-stars">✦　♡　✧　♡　✦</div>
+      <div class="finale-cake">🎀</div>
+      <p class="small-title">one last thing...</p>
+      <h2>Make a wish,<br><span>birthday girl!</span></h2>
+      <p>pejamkan mata sebentar, pikirkan satu harapan, lalu tekan tombol di bawah. 💫</p>
+      <button class="primary-btn" id="wishBtn" type="button">Aku sudah punya harapan ✨</button>
+      <div class="final-message hidden" id="finalMessage">
+        <div class="big-heart">♥</div>
+        <h3>Semoga terkabul, sayang!</h3>
+        <p>selamat bertambah usia, aii. semoga langkahmu selalu ditemani kebaikan, dan semoga kamu nggak pernah lupa betapa berharganya dirimu. aku sayang aii. 💗</p>
+      </div>
+      <div class="signature">made with ♡ by aku</div>
+    </section>
+  </main>
+
+  <footer>for your special day · with love, always ♡</footer>
+
+  <div class="modal hidden" id="wishModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close" id="closeModal" type="button" aria-label="Tutup">×</button>
+      <div class="modal-heart">♡</div>
+      <h3 id="modalTitle">a little wish for you</h3>
+      <p id="modalText"></p>
+      <button class="primary-btn" id="modalOkay" type="button">Aamiin, semoga 💗</button>
+    </div>
+  </div>
+
+
+  <div class="photo-lightbox hidden" id="photoLightbox" role="dialog" aria-modal="true" aria-label="Foto kenangan">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Tutup foto">×</button>
+    <button class="lightbox-arrow prev" id="photoPrev" type="button" aria-label="Foto sebelumnya">‹</button>
+    <figure>
+      <img id="lightboxImage" src="" alt="Foto kenangan diperbesar">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox-arrow next" id="photoNext" type="button" aria-label="Foto berikutnya">›</button>
+  </div>
+
+  <!-- Musik instrumental romantis bebas dari file lokal. Tambahkan file music.mp3 milikmu di folder ini. -->
+  <audio id="bgMusic" loop preload="none">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>

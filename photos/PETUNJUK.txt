@@ -1,0 +1,8 @@
+Simpan 4 foto kalian di folder ini dengan nama persis:
+foto-1.jpg
+foto-2.jpg
+foto-3.jpg
+foto-4.jpg
+
+Format yang disarankan JPG/JPEG. Kalau fotomu PNG, ubah nama dan ekstensi pada data-photo serta src di index.html.
+Foto belum disertakan; masukkan foto milikmu sendiri. Setelah menambah foto, refresh website.
